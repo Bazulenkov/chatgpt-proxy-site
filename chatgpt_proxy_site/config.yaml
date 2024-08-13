@@ -1,0 +1,21 @@
+credentials:
+  usernames:
+    jsmith:
+      email: jsmith@example.com
+      failed_login_attempts: 0 # Will be managed automatically
+      logged_in: False # Will be managed automatically
+      name: John Smith
+      password: '$2b$12$PtVfb0EoMr0AW04MJBctRO//NRdKaYV4iFj1UsHjWtzvAbzSmjcWe' # Will be hashed automatically
+    rbriggs:
+      email: rbriggs@example.com
+      failed_login_attempts: 0 # Will be managed automatically
+      logged_in: False # Will be managed automatically
+      name: Rebecca Briggs
+      password: '$2b$12$T9nbZGCLlXo6vW8kMbWwueMAwu96nZHXJJkgAjwjbDzstv9Hl4MaO' # Will be hashed automatically
+cookie:
+  expiry_days: 30
+  key: some_signature_key # Must be string
+  name: some_cookie_name
+pre-authorized:
+  emails:
+  - melsby@example.com
